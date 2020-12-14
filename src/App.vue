@@ -72,6 +72,7 @@ export default {
 
     async function handleSearch (q) {
       setGlobalLoading(true)
+      setUsers([])
       state.hasError = false
       console.log('global loading', store.isActiveGlobalLoading)
 
